@@ -1,0 +1,86 @@
+ <section id="services" class="bg-white">
+            <div class="container">
+
+                <div class="row mt-5 pt-5">
+                    <div class="col-lg-3 bg-friendlyit-third" data-mh="mh-col-services">
+                        <div class="px-lg-3 py-5 py-lg-4 text-center text-lg-left">
+                            <img style="height: 60px" src="assets/img/ikony 2-02-02.png" alt="samolot">
+                            <span class="d-block font-alt letter-spacing-2 mt-2 text-extra-large text-uppercase text-white">management of 
+                                flight reservations</span>
+            
+                        </div>
+                        <!-- //.px-lg-3 -->
+                    </div>
+                    <!-- //.col-lg-4 -->
+                    
+                    <div class="col-lg-3 bg-friendlyit-second" data-mh="mh-col-services">
+                        <div class="px-lg-3 py-5 py-lg-4 text-center text-lg-left">
+                            <i class="text-base-color title-extra-large"><img style="height: 60px" src="assets/img/ikony 3-03-03.png" alt="medycyna"></i>
+                            <span class="d-block font-alt letter-spacing-2 mt-2 text-extra-large text-uppercase text-white">medical data 
+                                management</span>
+                            
+                        </div>
+                        <!-- //.px-lg-3 -->
+                    </div>
+                    <!-- //.col-lg-4 -->
+                    
+                    <div class="col-lg-3 bg-friendlyit-third" data-mh="mh-col-services">
+                        <div class="px-lg-3 py-5 py-lg-4 text-center text-lg-left">
+                            <i class="text-base-color title-extra-large"><img style="height: 60px" src="assets/img/ikony 4-04-04.png" alt="karta"></i>
+                            <span class="d-block font-alt letter-spacing-2 mt-2 text-extra-large text-uppercase text-white">management of 
+                                loyalty cards</span>
+                            
+                        </div>
+                        <!-- //.px-lg-3 -->
+                    </div>
+                    <!-- //.col-lg-4 -->
+                    
+                    <div class="col-lg-3 bg-friendlyit-second" data-mh="mh-col-services">
+                        <div class="px-lg-3 py-5 py-lg-4 text-center text-lg-left">
+                            <i class="text-base-color title-extra-large"><img style="height: 60px" src="assets/img/ikony 5-05-05.png" alt="media"></i>
+                            <span class="d-block font-alt letter-spacing-2 mt-2 text-extra-large text-uppercase text-white">management of media content</span>
+                            
+                        </div>
+                        <!-- //.px-lg-3 -->
+                    </div>
+                    <!-- //.col-lg-4 -->
+                    
+                    <div class="col-lg-4 bg-friendlyit-first" data-mh="mh-col-services">
+                        <div class="px-lg-3 py-5 py-lg-4 text-center text-lg-left">
+                            <i class="text-base-color title-extra-large"><img style="height: 60px" src="assets/img/ikony 6-06-06.png" alt="dolar"></i>
+                            <span class="d-block font-alt letter-spacing-2 mt-2 text-extra-large text-uppercase text-white">managing payments 
+                                    from the bank guarantee fund</span>
+                            
+                        </div>
+                        <!-- //.px-lg-3 -->
+                    </div>
+                    <!-- //.col-lg-4 -->
+                    
+                    <div class="col-lg-4 bg-friendlyit-forth" data-mh="mh-col-services">
+                        <div class="px-lg-3 py-5 py-lg-4 text-center text-lg-left">
+                                <i class="text-base-color title-extra-large"><img style="height: 60px" src="assets/img/ikony 7-07-07.png" alt="dolar"></i>
+                                <span class="d-block font-alt letter-spacing-2 mt-2 text-extra-large text-uppercase text-white">integration of information 
+                                        exchange between financial 
+                                        institutions in the use of 
+                                        payment cards</span>
+                                
+                        </div>
+                        <!-- //.px-lg-3 -->
+                    </div>
+                    <!-- //.col-lg-4 -->
+
+                    <div class="col-lg-4 bg-friendlyit-first" data-mh="mh-col-services">
+                            <div class="px-lg-3 py-5 py-lg-4 text-center text-lg-left">
+                                    <i class="text-base-color title-extra-large"><img style="height: 60px" src="assets/img/ikony 1-01-01.png" alt=""></i>
+                                    <span class="d-block font-alt letter-spacing-2 mt-2 text-extra-large text-uppercase text-white">management of the 
+                                            educational sector</span>
+                                    
+                            </div>
+                            <!-- //.px-lg-3 -->
+                        </div>
+                        <!-- //.col-lg-4 -->
+                </div>
+                <!-- //.row -->
+            </div>
+            <!-- //.container -->
+        </section>

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
+
+.background {
+    background-color: #2d3845;
+    height: 100vh;
+    padding: 1rem;
+  }
+  .logo-box {
+    width: 20vw;
+    background-color: #2d3845;
+    
+    padding: 2rem;
+  }
+  @media (max-width: 1250px) {
+    .logo-box {
+        width: 30vw
+        }
+    }
+    @media (max-width: 1000px) {
+        .logo-box {
+            padding: 0 rem;
+            }
+        }
+@media (max-width: 850px) {
+    .logo-box {
+        width: 50vw
+    }
+    }
+  .logo-text {
+    /* font-size: 2rem; */
+    /* margin-bottom: 0.3rem; */
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+  }
+
+  .squares-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .square1 {
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #42c29e;
+    margin-right: 0.7rem;
+  }
+  .square2 {
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #0ca3c2;
+    margin-right: 0.7rem;
+  }
+  .square3 {
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #189ead;
+    margin-right: 0.7rem;
+  }
+  .square4 {
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #c5e2ed;
+    margin-right: 0.7rem;
+  }
