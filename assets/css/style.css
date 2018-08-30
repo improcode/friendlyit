@@ -30,7 +30,7 @@
 
 /** BG Default */
 #home.home-bg-static {
-    background-image: url("../img/312908-P8K86Y-778.jpg");
+    background-image: url("../img/header3.png");
 }
 
 /** BG Parallax */
@@ -143,9 +143,12 @@
     top: 0;
 }
 .accolades > .item > .item-content {
-    border-bottom: 1px dashed #a1a1a1;
+    /* border-bottom: 1px dashed #a1a1a1; */
     margin-left: 94px;
-    padding-bottom: 25px;
+    /* padding-bottom: 25px; */
+    min-height: 64px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -339,7 +342,7 @@ footer ul > li a i {
 * Skit
 */
 #skit {
-    background-image: url('../img/312908-P8K86Y-778.jpg');
+    background-image: url('../img/header11.png');
     background-attachment: fixed;
     height: 25vh;
 }

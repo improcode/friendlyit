@@ -13,6 +13,21 @@
 .bg-base-color-friendlyit {
     background-color: #42c29e !important;
 }
+.bg-friendlyit {
+    background-color: #2d3845 !important;
+}
+.bg-friendlyit-first {
+    background-color: #42c29e !important;
+}
+.bg-friendlyit-second {
+    background-color: #0ca3c2 !important;
+}
+.bg-friendlyit-third {
+    background-color: #189ead !important;
+}
+.bg-friendlyit-forth {
+    background-color: #c5e2ed !important;
+}
 
 /*
 * Border color
