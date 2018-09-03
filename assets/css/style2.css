@@ -29,7 +29,7 @@
 
 /** BG Default */
 #home.home-bg-static {
-    background-image: url("../img/header3.png");
+    background-image: url("../img/banner.jpg");
 }
 
 /** BG Parallax */
@@ -341,7 +341,7 @@ footer ul > li a i {
 * Skit
 */
 #skit {
-    background-image: url('../img/header11.png');
+    background-image: url('../img/banner.jpg');
     background-size: cover;
     background-attachment: fixed;
     height: 25vh;
