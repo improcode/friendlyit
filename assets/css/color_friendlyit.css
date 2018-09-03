@@ -6,10 +6,6 @@
 * Background color
 */
 
-.bg-base-color {
-    background-color: #006ca3 !important;
-}
-
 .bg-base-color-friendlyit {
     background-color: #42c29e !important;
 }
@@ -29,51 +25,13 @@
     background-color: #c5e2ed !important;
 }
 
-/*
-* Border color
-*/
-
-.border-base-color {
-    border-color: #006ca3 !important;
-}
-
 
 /*
 * Button color
 */
 
-.btn-base-color {
-    background-color: #006ca3 !important;
-}
-
 .btn-base-color-friendlyit {
     background-color: #42c29e !important;
-}
-
-/*
-* Flickity
-*/
-
-.carousel-custom.carousel-fullscreen .flickity-page-dots .dot.is-selected {
-    background: #006ca3 !important;
-}
-
-
-/*
-* Preloader
-*/
-
-.pace .pace-progress {
-    background-color: #006ca3 !important;
-}
-
-
-/*
-* Select2 custom
-*/
-
-.select2-dropdown-custom .select2-results > .select2-results__options > .select2-results__option[aria-selected=true] {
-    background-color: #006ca3 !important;
 }
 
 
@@ -81,9 +39,6 @@
 * Text color
 */
 
-.text-base-color {
-    color: #006ca3 !important;
-}
 .text-base-color-friendlyit {
     color: #189cab !important;
 }
