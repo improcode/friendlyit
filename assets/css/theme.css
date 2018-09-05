@@ -743,7 +743,7 @@ a[href^=tel] {
     font-family: "Open Sans", sans-serif !important;
 }
 .font-alt {
-    font-family: "Montserrat", sans-serif !important;
+    font-family: "Source Sans Pro", sans-serif !important;
 }
 
 
@@ -1252,8 +1252,8 @@ label.error {
 .navbar .nav-link {
     color: #ffffff !important;
     display: inline-block;
-    font-family: "Montserrat", sans-serif;
-    font-size: 0.75rem;
+    /* font-family: "Montserrat", sans-serif; */
+    /* font-size: 0.75rem; */
     letter-spacing: 0.125rem;
     opacity: 0.95;
     padding: 0 !important;
@@ -1569,12 +1569,6 @@ section {
 }
 .text-white {
     color: #ffffff !important;
-}
-.text-friendlyit-first {
-    color: #42c29e !important;
-}
-.text-friendlyit-grey {
-    color: #2d3845
 }
 
 
