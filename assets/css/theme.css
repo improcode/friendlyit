@@ -1459,6 +1459,7 @@ label.error {
     top: 94%;
     text-align: center;
     z-index: 999;
+    padding-top: 5px;
 }
 .scroll-to-top i {
     color: #ffffff;
