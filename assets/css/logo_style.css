@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
 
   .logo-box {
-    background-color: #2d3845;
     padding: 2rem;
   }
   @media (max-width: 991px) {
@@ -22,9 +21,21 @@
   .logo-text {
     font-family: 'Open Sans', sans-serif;
     color: white;
-    text-align: center;
+    text-align: left;
     font-size: 1.5rem;
     letter-spacing: 0.2rem;
+  }
+  .friendlyit-header {
+    font-size: 3rem;
+  }
+  .friendlyit-menu {
+    font-size: 1.5rem;
+  }
+  .shadow-text {
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.8);
+  }
+  .shadow-box {
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.8);
   }
   .squares-box {
     display: flex;
@@ -34,5 +45,10 @@
   .square {
     width: 0.9rem;
     height: 0.9rem;
+    margin-right: 0.7rem;
+  }
+  .square-xl {
+    width: 1.7rem;
+    height: 1.7rem;
     margin-right: 0.7rem;
   }

@@ -2,6 +2,17 @@
 <html lang="en">
 
 <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125333579-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-125333579-1');
+    </script>
+
     <title>Friendly IT</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -12,7 +23,7 @@
     <link rel="icon" type="image/png" href="assets/img/favicon.png" />
 
     <!-- Bootstrap CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
     <!-- Font Awesome CSS -->
     <link href="assets/css/icons-mind.css" rel="stylesheet" type="text/css">
@@ -33,35 +44,27 @@
 
     <!-- Section - Home Start -->
     <section id="home" class="home-bg-static bg-cover bg-friendlyit">
-        <div class="container h-100">
-            <div class="row align-items-center h-100 justify-content-center">
-                    <div class="container">
-                        <div class="row">
+                    <div class="container h-100 p-0">
+                        <div class="row h-100 no-gutters align-items-center justify-content-center">
                             
-                                <div class="col-5 col-sm-5 col-lg-4 col-xl-3 p-0 mt-0 mb-0 bg-friendlyit d-flex flex-wrap justify-content-center align-items-center align-content-center mobile-display-none" style="margin: 2rem;">
-                                        <div class="col-11 m-0 logo-text" style="text-align: left; padding: 0rem 0rem 0rem 2rem; font-size: 1.8rem;">FRIENDLY IT</div>
-                                        <div class="col-11 m-0 squares-box" style="padding: 0rem 0rem 0rem 2rem;">
-                                            <div class="square bg-friendlyit-first"></div>
-                                            <div class="square bg-friendlyit-second"></div>
-                                            <div class="square bg-friendlyit-third"></div>
-                                            <div class="square bg-friendlyit-forth"></div>
+                                <div class="col-lg-4 col-xl-4 p-0 mobile-display-none">
+                                        <div class="p-0 m-0 logo-text shadow-text friendlyit-header">FRIENDLY IT</div>
+                                        <div class="p-0 m-0 squares-box">
+                                            <div class="square-xl bg-friendlyit-first shadow-box"></div>
+                                            <div class="square-xl bg-friendlyit-second shadow-box"></div>
+                                            <div class="square-xl bg-friendlyit-third shadow-box"></div>
+                                            <div class="square-xl bg-friendlyit-forth shadow-box"></div>
                                         </div>
 
                                 </div>
 
-                            <div class="col-12 col-sm-9 col-lg-7 m-0 p-0">
-                                    <span class="d-block bg-friendlyit-second font-alt letter-spacing-2 text-uppercase text-white" style="padding: 0.4rem 0rem 0.4rem 1rem; font-size: 2rem;"><strong>Coding</strong> is passion</span>
-                                    <span class="d-block bg-friendlyit-third font-alt letter-spacing-2 text-uppercase text-white" style="padding: 0.4rem 0rem 0.4rem 1rem; font-size: 2rem;"><strong>Useful</strong> is obsession</span>
+                            <div class="col-12 col-sm-10 col-lg-6 m-0 p-0">
+                                    <span class="d-block bg-friendlyit-second font-alt letter-spacing-2 text-uppercase text-white header-claim"><strong>Coding</strong> is passion</span>
+                                    <span class="d-block bg-friendlyit-third font-alt letter-spacing-2 text-uppercase text-white header-claim"><strong>Useful</strong> is obsession</span>
                             </div>
 
                         </div>
                     </div>    
-                <!-- //.col-lg-9 -->
-            </div>
-            <!-- //.row -->
-
-        </div>
-        <!-- //.container -->
         <div class="arrow arrow-first"></div>
         <div class="arrow arrow-second"></div>
     </section>
@@ -73,7 +76,7 @@
         <div class="container">
             <div class="navbar-header d-lg-none">
                 <a class="page-scroll" href="#page-top">
-                    <div class="logo-text">FRIENDLY IT</div>
+                    <div class="logo-text friendlyit-menu">FRIENDLY IT</div>
                     <div class="squares-box">
                         <div class="square bg-friendlyit-first"></div>
                         <div class="square bg-friendlyit-second"></div>
@@ -95,7 +98,7 @@
                         <a class="nav-link page-scroll" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#aboutus">About us</a>
+                        <a class="nav-link page-scroll" onclick="javascript:document.querySelector('#aboutus').scrollIntoView({ behavior: 'smooth' });" href="#aboutus">About us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="#experience">Experience</a>
@@ -119,13 +122,13 @@
     <section id="aboutus" class="bg-friendlyit">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 d-none d-lg-block">
+                <div class="col-lg-4 offset-lg-1 d-none d-lg-block">
                     <img src="assets/img/svg/team.svg" alt="friendlyit-team" class="img-fluid" />
                 </div>
                 <!-- //.col-lg-4 -->
 
-                <div class="col-lg-6">
-                    <div class="pl-lg-4">
+                <div class="col-lg-5">
+                    <div class="pl-lg-4 mt-lg-3">
                         <h3 class="font-alt letter-spacing-2 text-uppercase text-white">team of 7 programmers</h3>
                             <div class="squares-box">
                                 <div class="square bg-friendlyit-first"></div>
@@ -133,15 +136,11 @@
                                 <div class="square bg-friendlyit-third"></div>
                                 <div class="square bg-friendlyit-forth"></div>
                             </div>
-                        <p class="mt-4 text-large text-white">We met while working on joint projects in corporations. We
-                            joined forces at <strong>FRIENDLY IT</strong> due to a similar approach to business issues. We love agility and
-                            innovation. We value hard work but in a good atmosphere.</p>
-
-                        <!-- //.row -->
+                        <p class="mt-4 text-large text-white">We met while working on joint projects in corporations. We joined forces at <strong>FRIENDLY IT</strong> due to a similar approach to business issues. We love agility and innovation. We value hard work but in a good atmosphere.</p>
                     </div>
                     <!-- //.pl-lg-4 -->
                 </div>
-                <!-- //.col-lg-6 -->
+                <!-- //.col-lg-5 -->
             </div>
             <!-- //.row -->
         </div>
@@ -174,7 +173,7 @@
                             <i><img src="assets/img/svg/ikony 2-02.svg" alt="management of flight reservations"></i>
 
                             <div class="item-content">
-                                <span class="d-block font-alt letter-spacing-1 text-uppercase text-white" style="font-size: 1.3rem;">management of flight reservations</span>
+                                <span class="d-block font-alt letter-spacing-1 text-uppercase text-white">management of flight reservations</span>
                             </div>
                             <!-- //.item-content -->
                         </div>
@@ -184,7 +183,7 @@
                             <i><img src="assets/img/svg/ikony 3-03.svg" alt="medical data management"></i>
 
                             <div class="item-content">
-                                <span class="d-block font-alt letter-spacing-1 text-uppercase text-white" style="font-size: 1.3rem;">medical data management
+                                <span class="d-block font-alt letter-spacing-1 text-uppercase text-white">medical data management
                                 </span>
                             </div>
                             <!-- //.item-content -->
@@ -195,7 +194,7 @@
                                 <i><img src="assets/img/svg/ikony 4-04.svg" alt="management of loyalty cards"></i>
 
                             <div class="item-content">
-                                <span class="d-block font-alt letter-spacing-1 text-uppercase text-white" style="font-size: 1.3rem;">management of loyalty cards</span>
+                                <span class="d-block font-alt letter-spacing-1 text-uppercase text-white">management of loyalty cards</span>
                             </div>
                             <!-- //.item-content -->
                         </div>
@@ -205,7 +204,7 @@
                                 <i><img src="assets/img/svg/ikony 7-07.svg" alt="management of media content"></i>
 
                             <div class="item-content">
-                                <span class="d-block font-alt letter-spacing-1 text-uppercase text-white" style="font-size: 1.3rem;">management of media content</span>
+                                <span class="d-block font-alt letter-spacing-1 text-uppercase text-white">management of media content</span>
                             </div>
                             <!-- //.item-content -->
                         </div>
@@ -215,7 +214,7 @@
                                 <i><img src="assets/img/svg/ikony 6-06.svg" alt="managing payments from the bank guarantee fund"></i>
 
                             <div class="item-content">
-                                <span class="d-block font-alt letter-spacing-1 text-uppercase text-white" style="font-size: 1.3rem;">managing payments from the bank guarantee fund</span>
+                                <span class="d-block font-alt letter-spacing-1 text-uppercase text-white">managing payments from the bank guarantee fund</span>
                             </div>
                             <!-- //.item-content -->
                         </div>
@@ -225,7 +224,7 @@
                                 <i><img src="assets/img/svg/ikony 5-05.svg" alt="integration of information exchange between financial institutions in the use of payment cards"></i>
 
                             <div class="item-content">
-                                <span class="d-block font-alt letter-spacing-1 text-uppercase text-white" style="font-size: 1.3rem;">integration of information exchange between financial institutions in the use of payment cards</span>
+                                <span class="d-block font-alt letter-spacing-1 text-uppercase text-white">integration of information exchange between financial institutions in the use of payment cards</span>
                             </div>
                             <!-- //.item-content -->
                         </div>
@@ -235,7 +234,7 @@
                                 <i><img src="assets/img/svg/ikony 1-01.svg" alt="management of the educational sector"></i>
 
                             <div class="item-content">
-                                <span class="d-block font-alt letter-spacing-1 text-uppercase text-white" style="font-size: 1.3rem;">management of the educational sector</span>
+                                <span class="d-block font-alt letter-spacing-1 text-uppercase text-white">management of the educational sector</span>
                             </div>
                             <!-- //.item-content -->
                         </div>
@@ -264,7 +263,7 @@
                 <div class="col-lg-8 text-center">
                     <h3 class="font-alt letter-spacing-2 title-extra-large text-uppercase text-white">FRIENDLY SPECOPS</h3>
                     <p class="mt-3 text-white text-extra-large"><i>Our activity consists in providing your company with a ready product or supporting your current projects.</i></p>
-                        <div class="squares-box" style="align-items: center; justify-content: center;">
+                        <div class="squares-box align-items-center justify-content-center">
                             <div class="square bg-friendlyit-first"></div>
                             <div class="square bg-friendlyit-second"></div>
                             <div class="square bg-friendlyit-third"></div>
@@ -283,7 +282,7 @@
 
 
     <!-- Section - Lean Workflow Start -->
-    <section id="lean-workflow" class="bg-white" style="padding: 90px 0;">
+    <section id="lean-workflow" class="bg-white">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
@@ -295,19 +294,19 @@
            
             <div class="row mt-4 align-items-center justify-content-center">
                 <div class="col-4 col-lg-3 p-0 text-center">
-                    <div class="mb-4"><img src="assets/img/iteration.png" alt="Lean workflow, system analysis" style="max-width: 100%;"></div>
+                    <div class="mb-4"><img class="mw-100" src="assets/img/iteration.png" alt="Lean workflow, system analysis"></div>
                     <button onclick="analysis()" class="btn-workflow-desktop page-scroll btn btn-base-color-friendlyit">ANALYSIS</button>
-                    <button onclick="analysis()" class="btn-workflow-mobile page-scroll btn btn-base-color-friendlyit" style="font-size: 1.5rem"><i class="icon-Light-Bulb2"></i></button>
+                    <button onclick="analysis()" class="btn-workflow-mobile page-scroll btn btn-base-color-friendlyit"><i class="icon-Light-Bulb2"></i></button>
                 </div>
                 <div class="col-4 col-lg-3 p-0 text-center">
-                    <div class="mb-4"><img src="assets/img/iteration.png" alt="Lean workflow, prototyping" style="max-width: 100%;"></div>
+                    <div class="mb-4"><img class="mw-100" src="assets/img/iteration.png" alt="Lean workflow, prototyping"></div>
                     <button onclick="prototyping()" class="btn-workflow-desktop page-scroll btn btn-base-color-friendlyit">PROTOTYPING</button>
-                    <button onclick="prototyping()" class="btn-workflow-mobile page-scroll btn btn-base-color-friendlyit" style="font-size: 1.5rem"><i class="icon-Pencil"></i></button>
+                    <button onclick="prototyping()" class="btn-workflow-mobile page-scroll btn btn-base-color-friendlyit"><i class="icon-Pencil"></i></button>
                 </div>
                 <div class="col-4 col-lg-3 p-0 text-center">
-                    <div class="mb-4"><img src="assets/img/iteration.png" alt="Lean workflow, system development" style="max-width: 100%;"></div>
+                    <div class="mb-4"><img class="mw-100" src="assets/img/iteration.png" alt="Lean workflow, system development"></div>
                     <button onclick="development()" class="btn-workflow-desktop page-scroll btn btn-base-color-friendlyit">DEVELOPMENT</button>
-                    <button onclick="development()" class="btn-workflow-mobile page-scroll btn btn-base-color-friendlyit" style="font-size: 1.5rem"><i class="icon-Coding"></i></button>
+                    <button onclick="development()" class="btn-workflow-mobile page-scroll btn btn-base-color-friendlyit"><i class="icon-Coding"></i></button>
                 </div>
 
                 <div id="workflow" class="col-lg-8 mt-5">
@@ -328,7 +327,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
                     <h3 class="font-alt letter-spacing-2 title-extra-large text-uppercase text-white">Contact</h3>
-                        <div class="squares-box" style="align-items: center; justify-content: center;">
+                        <div class="squares-box align-items-center justify-content-center">
                             <div class="square bg-friendlyit-first"></div>
                             <div class="square bg-friendlyit-second"></div>
                             <div class="square bg-friendlyit-third"></div>
@@ -424,17 +423,36 @@
 
 
     <!-- Main JS -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="assets/js/workflow_script.js"></script>
 
     <!-- Include all js plugins (below) -->
-    <script src="assets/js/jquery.sticky.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
     <script src="assets/js/jquery.easing.min.js"></script>
-    <script src="assets/js/jquery.validate.min.js"></script>
 
     <!-- Theme JS -->
     <script src="assets/js/theme.js"></script>
+
+    <!-- Cookies Info -->
+    <script type="text/javascript" id="cookieinfo"
+    src="assets/js/cookieinfo.min.js"
+    data-font-size="10px"
+	data-bg="#c5e2ed"
+	data-fg="#000000"
+    data-link="#42c29e"
+    data-divlink="#FFFFFF"
+    data-divlinkbg="#42c29e"
+	data-cookie="CookieInfoScript"
+	data-text-align="left"
+    data-close-text="Got it!"
+    data-message="This website uses cookies to ensure you get the best experience on our website.">
+    </script>
+
 
 </body>
 

@@ -159,7 +159,7 @@
             $navbarCollapse.collapse('hide');
         };
         
-        
+
         /** Accordion collapse */
         if (ww < 768){
             $accordionEducation.find('.collapse').collapse('show');
